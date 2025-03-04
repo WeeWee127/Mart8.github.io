@@ -18,7 +18,7 @@ body {
 }
 .button {
     position: fixed;
-    bottom: 20px;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 25px;
@@ -102,3 +102,15 @@ body {
         opacity: 1;
     }
 }
+@media (max-width: 480px) {
+    .title {
+        font-size: 50px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .author {
+        font-size: 30px;
+    }
+}
+
